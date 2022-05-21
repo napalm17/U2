@@ -1,5 +1,10 @@
 package C;
 
+/**
+ * This enumerator models months in a year.
+ * @author ugpsy
+ * @version 1.0
+ */
 public enum Month {
     JANUARY(1),
     FEBRUARY(2),
