@@ -29,7 +29,7 @@ public class StringUtility {
      * @return true if the given string is a palindrome, false if not.
      */
     public static boolean isPalindrome(String word) {
-        return word.equalsIgnoreCase(reverse(word));
+        return word.equals(reverse(word));
     }
 
     /**
